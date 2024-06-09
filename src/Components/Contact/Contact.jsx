@@ -39,10 +39,12 @@ const Contact = () => {
     <div className='contact'>
       <div className="contact-col">
           <h3>Отправьте нам сообщение <img src={msg_icon} alt="" /></h3>
-          <p>Describe your ideas and then watch them transform from text to images. 
-               Whether you want to create ai generated art for your next presentation or poster, 
-               or generate the perfect photo, Image Creator in Microsoft Designer can effortlessly 
-               handle any style or format.</p>
+          <p><b>Режим работы:</b></p>
+          <br></br>
+          <p>Понедельник-пятница: 9:00 - 17:30</p>
+          <br></br>
+          <p>Суббота: 9:00 - 17:00</p>
+          <br></br>
                <ul>
                     <li><img src={mail_icon} alt="" />a.teploblok@mail.ru</li>
                     <li><img src={phone_icon} alt="" />+7 (707) 101 83 31</li>

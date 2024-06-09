@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import logo_adin_2 from '../../assets/logo_adin_2.png'
+// import logo_adin_2 from '../../assets/logo_adin_2.png'
 import menu_icon from '../../assets/menu-icon.png'
 import { Link } from 'react-scroll';
 
@@ -21,7 +21,8 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-      <img src={logo_adin_2} alt="" className='logo'/>
+      {/* <img src={logo_adin_2} alt="" className='logo'/> */}
+      <img src="" alt="" className='logo'/>
       <ul className={mobileMenu?'':'hide-mobile-menu'}>
           <li><Link to='hero' smooth={true} offset={0} duration={500}>Главная</Link></li>
           <li><Link to='program' smooth={true} offset={-260} duration={500}>Что мы предлагаем</Link></li>

@@ -15,7 +15,7 @@ const Contact = () => {
        setResult("Sending....");
        const formData = new FormData(event.target);
    
-       formData.append("access_key", "bccfd0cb-7f41-4d81-b5fb-908ae53e6925");
+       formData.append("access_key", "0cb21a0a-fe84-484d-a0ee-4e3aaeb55ae7");
    
        const response = await fetch("https://api.web3forms.com/submit", {
          method: "POST",
@@ -44,7 +44,7 @@ const Contact = () => {
                or generate the perfect photo, Image Creator in Microsoft Designer can effortlessly 
                handle any style or format.</p>
                <ul>
-                    <li><img src={mail_icon} alt="" />arlannomad@gmail.com</li>
+                    <li><img src={mail_icon} alt="" />a.teploblok@mail.ru</li>
                     <li><img src={phone_icon} alt="" />+7 (707) 101 83 31</li>
                     <li><img src={location_icon} alt="" />г. Алматы, ул. Рыскулова 130 а, 2 этаж, офис 1 (пересечение ул Гончарова)</li>
                </ul>

@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className="contact-col">
-          <h3>Send us a message <img src={msg_icon} alt="" /></h3>
+          <h3>Отправьте нам сообщение <img src={msg_icon} alt="" /></h3>
           <p>Describe your ideas and then watch them transform from text to images. 
                Whether you want to create ai generated art for your next presentation or poster, 
                or generate the perfect photo, Image Creator in Microsoft Designer can effortlessly 
@@ -51,14 +51,14 @@ const Contact = () => {
       </div>
       <div className="contact-col">
           <form onSubmit={onSubmit}>
-               <label>Yor Name</label>
-               <input type='text' name='name' placeholder='Enter your name' 
+               <label>Ваше имя</label>
+               <input type='text' name='name' placeholder='Ваше имя' 
                required/>
-               <label>Phone Number</label>
-               <input type='tel' name='phone' placeholder='Enter your phone number' required/>
-               <label> Write Your Message Here</label>
-               <textarea name='message' rows={6} placeholder='Enter your mesage' re></textarea>
-               <button type='submit' className='btn dark-btn'>Submit <img src={white_arrow} alt="" /></button>
+               <label>Номер телефона</label>
+               <input type='tel' name='phone' placeholder='Ваш телефон' required/>
+               <label>Напишите ваше сообщение</label>
+               <textarea name='message' rows={6} placeholder='Сообщение' re></textarea>
+               <button type='submit' className='btn dark-btn'>Принять<img src={white_arrow} alt="" /></button>
           </form>
           <span>{result}</span>
       </div>

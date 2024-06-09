@@ -6,6 +6,7 @@ import user_1 from '../../assets/user-1.png'
 import user_2 from '../../assets/user-2.png'
 import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
+import brother from '../../assets/brother.jpg'
 
 const Testimonials = () => {
 
@@ -34,10 +35,10 @@ const slideBackward = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_1} alt="" />
+                <img src={brother} alt="" />
                 <div>
-                  <h3>William Jackson</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Клиент 1</h3>
+                  <span>Казахстан</span>
                 </div>
                 </div>
                 <p>Describe your ideas and then watch them transform from text to images. 
@@ -49,10 +50,10 @@ const slideBackward = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_2} alt="" />
+                <img src={brother} alt="" />
                 <div>
-                  <h3>Some Name</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Клиент 1</h3>
+                  <span>Казахстан</span>
                 </div>
                 </div>
                 <p>Describe your ideas and then watch them transform from text to images. 
@@ -64,10 +65,10 @@ const slideBackward = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_3} alt="" />
+                <img src={brother} alt="" />
                 <div>
-                  <h3>William Jackson</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Клиент 1</h3>
+                  <span>Казахстан</span>
                 </div>
                 </div>
                 <p>Describe your ideas and then watch them transform from text to images. 
@@ -79,10 +80,10 @@ const slideBackward = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_4} alt="" />
+                <img src={brother} alt="" />
                 <div>
-                  <h3>William Jackson</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Клиент 1</h3>
+                  <span>Казахстан</span>
                 </div>
                 </div>
                 <p>Describe your ideas and then watch them transform from text to images. 

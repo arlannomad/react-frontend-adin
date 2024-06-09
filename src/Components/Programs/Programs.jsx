@@ -16,21 +16,21 @@ const Programs = () => {
       <div className='program'>
           <img src={gazoblok_almaty}  alt=""/>
           <div className='caption'>
-          <img src={program_icon_1}  alt=""/>
+          {/* <img src={program_icon_3}  alt=""/> */}
           <p>Газоблок</p>
           </div>
       </div>
       <div className='program'>
           <img src={gazoblok_almaty}  alt=""/>
           <div className='caption'>
-          <img src={program_icon_3}  alt=""/>
+          {/* <img src={program_icon_3}  alt=""/> */}
           <p>Пеноблок</p>
           </div>
       </div>
       <div className='program'>
           <img src={gazoblok_almaty}  alt=""/>
           <div className='caption'>
-          <img src={program_icon_3}  alt=""/>
+          {/* <img src={program_icon_3}  alt=""/> */}
           <p>Металлочерепица</p>
           </div>
       </div>

@@ -52,7 +52,7 @@ const slideBackward = () => {
               <div className="user-info">
                 <img src={brother} alt="" />
                 <div>
-                  <h3>Клиент 1</h3>
+                  <h3>Клиент 2</h3>
                   <span>Казахстан</span>
                 </div>
                 </div>
@@ -67,7 +67,7 @@ const slideBackward = () => {
               <div className="user-info">
                 <img src={brother} alt="" />
                 <div>
-                  <h3>Клиент 1</h3>
+                  <h3>Клиент 3</h3>
                   <span>Казахстан</span>
                 </div>
                 </div>
@@ -82,7 +82,7 @@ const slideBackward = () => {
               <div className="user-info">
                 <img src={brother} alt="" />
                 <div>
-                  <h3>Клиент 1</h3>
+                  <h3>Клиент 4</h3>
                   <span>Казахстан</span>
                 </div>
                 </div>

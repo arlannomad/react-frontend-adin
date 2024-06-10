@@ -28,6 +28,7 @@ const Navbar = () => {
           <li><Link to='program' smooth={true} offset={-260} duration={500}>Что мы предлагаем</Link></li>
           <li><Link to='about' smooth={true} offset={-150} duration={500}>О нас</Link></li>
           <li><Link to='campus' smooth={true} offset={-260} duration={500}>Наши продукты</Link></li>
+          <li><Link to='articles' smooth={true} offset={-260} duration={500}>Статьи</Link></li>
           <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Отзывы клиентов</Link></li>
           <li><Link Link to='contact' smooth={true} offset={-260} duration={500}
            className='btn'>Контакты</Link></li>

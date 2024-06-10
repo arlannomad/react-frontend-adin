@@ -12,7 +12,7 @@ nav{
   z-index: 10;
 }
 .logo{
-  width: 180px;
+  width: 150px;
   border-radius: 10px;
 
 }
@@ -34,7 +34,7 @@ nav ul li{
 
 @media (max-width: 1000px) {
   .logo{
-    width: 90px;
+    width: 85px;
   }
   nav ul li{
     margin: 10px 15 px;

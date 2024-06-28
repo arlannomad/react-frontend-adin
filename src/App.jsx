@@ -25,8 +25,8 @@ const App = () => {
       <About setPlayState={setPlayState}/>
       <Title subTitle='Галерея' title='Фото'/>
       <Campus/>
-      <Title subTitle='Статьи' title='Статьи'/>
-      <Articles/>
+      {/*<Title subTitle='Статьи' title='Статьи'/>*/}
+      {/*<Articles/>*/}
       <Title subTitle='Отзывы' title='Что говорят наши клиенты'/>
       <Testimonials/>
       <Title subTitle='Контакты' title='На связи'/>

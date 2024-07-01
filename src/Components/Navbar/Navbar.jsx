@@ -31,9 +31,12 @@ const Navbar = () => {
                 <li><Link to='campus' smooth={true} offset={-260} duration={500}>Наши продукты</Link></li>
                 <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Отзывы клиентов</Link></li>
                 {/*<li><a href="http://localhost:8081/"><button className='btn'>Статьи</button></a></li>*/}
-                <li><a href="https://adin-fontend-list.netlify.app/">
+                <li><a href="http://adin-frontend.s3-website.ap-south-1.amazonaws.com/">
                     <button className='btn'>Статьи</button>
                 </a></li>
+                {/*<li><a href="https://adin-fontend-list.netlify.app/">*/}
+                {/*    <button className='btn'>Статьи</button>*/}
+                {/*</a></li>*/}
                 <li><Link Link to='contact' smooth={true} offset={-260} duration={500}
                           className='btn'>Контакты</Link></li>
             </ul>
